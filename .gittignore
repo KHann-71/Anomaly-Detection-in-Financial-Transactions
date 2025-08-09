@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual env
+.env
+.venv/
+venv/
+
+# Data & artifacts
+data/*
+!data/.gitkeep
+
+artifacts/*
+!artifacts/.gitkeep
+
+# Jupyter checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Models
+*.pth
+*.pt
+*.h5
+
+# System files
+.DS_Store
+Thumbs.db
